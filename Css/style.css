@@ -184,6 +184,9 @@ label{
 .ativar-dark:checked ~ .dark-mode label {
     color: white;
 }
+.ativar-dark:checked ~ .dark-mode .curriculo{
+    background-color: #3f3f3f;
+}
 
 
 /* @MEDIA */
@@ -194,6 +197,10 @@ label{
         align-items: flex-start;
         justify-content: space-between;
     }
+    .curriculo{
+        text-align: center;
+    }
+
 
     footer nav .redes-sociais{
         display: flex;
