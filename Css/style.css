@@ -329,57 +329,49 @@
             height: 25px;
             position: relative;
         }
-        /*
-        .progresso .progress-bar{
-           position: absolute;
-           height: 25px;
-           background-color: #04133d;
-        }
-        .progresso .progress-bar_c{
-            position: absolute;
-            height: 25px;
-            background-color: #04133d;
-         }
-         */
-        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e{
+        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e, .progress-bar_p{
             height: 25px;
             padding: 5px;
             background-color: #ccc;
-          }
-        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e{
+        }
+        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e, .progress-bar_p{
             height: 25px;
             padding: 5px;
             background-color: #ccc;
             display: flex;
-          }
-          
+        }  
         .progress-bar::before{
             content: "";
             width: 70%;
             background-color: #292268;
-          }
+        }
         .progress-bar_c::before{
             content: "";
             width: 80%;
             background-color: #292268;
-          }
+        }
         .progress-bar_j::before{
             content: "";
             width: 30%;
             background-color: #292268;
-          }
+        }
         .progress-bar_hs::before{
             content: "";
             width: 90%;
             background-color: #292268;
-          }
+        }
         .progress-bar_hs::before{
             content: "";
             width: 90%;
             background-color: #292268;
-          }
+        }
         .progress-bar_e::before{
             content: "";
             width: 98%;
             background-color: #292268;
-          }
+        }
+        .progress-bar_p::before{
+            content: "";
+            width: 98%;
+            background-color: #292268;
+        }
