@@ -329,12 +329,7 @@
             height: 25px;
             position: relative;
         }
-        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e, .progress-bar_p, .progress-bar_a{
-            height: 25px;
-            padding: 5px;
-            background-color: #ccc;
-        }
-        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e, .progress-bar_p, .progress-bar_a{
+        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e, .progress-bar_p, .progress-bar_a, .progress-bar_ig{
             height: 25px;
             padding: 5px;
             background-color: #ccc;
@@ -378,5 +373,10 @@
         .progress-bar_a::before{
             content: "";
             width: 30%;
+            background-color: #292268;
+        }
+        .progress-bar_ig::before{
+            content: "";
+            width: 60%;
             background-color: #292268;
         }
