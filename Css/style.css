@@ -347,12 +347,7 @@
         }
         .progress-bar_j::before{
             content: "";
-            width: 30%;
-            background-color: #292268;
-        }
-        .progress-bar_hs::before{
-            content: "";
-            width: 90%;
+            width: 25%;
             background-color: #292268;
         }
         .progress-bar_hs::before{
