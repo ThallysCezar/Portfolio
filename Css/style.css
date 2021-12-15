@@ -341,42 +341,45 @@
             background-color: #04133d;
          }
          */
-         .progress-bar, .progress-bar_c, .progress-bar_j{
+        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e{
             height: 25px;
             padding: 5px;
             background-color: #ccc;
           }
-          .progress-bar, .progress-bar_c, .progress-bar_j{
+        .progress-bar, .progress-bar_c, .progress-bar_j, .progress-bar_hs, .progress-bar_e{
             height: 25px;
             padding: 5px;
             background-color: #ccc;
             display: flex;
           }
           
-          .progress-bar::before{
+        .progress-bar::before{
             content: "";
-            /* Por enquanto colocamos
-              uma largura e uma cor
-              com valores fixos
-              */
             width: 70%;
             background-color: #292268;
           }
-          .progress-bar_c::before{
+        .progress-bar_c::before{
             content: "";
-            /* Por enquanto colocamos
-              uma largura e uma cor
-              com valores fixos
-              */
             width: 80%;
             background-color: #292268;
           }
-          .progress-bar_j::before{
+        .progress-bar_j::before{
             content: "";
-            /* Por enquanto colocamos
-              uma largura e uma cor
-              com valores fixos
-              */
             width: 30%;
+            background-color: #292268;
+          }
+        .progress-bar_hs::before{
+            content: "";
+            width: 90%;
+            background-color: #292268;
+          }
+        .progress-bar_hs::before{
+            content: "";
+            width: 90%;
+            background-color: #292268;
+          }
+        .progress-bar_e::before{
+            content: "";
+            width: 98%;
             background-color: #292268;
           }
