@@ -236,7 +236,7 @@
             background-color: var(--corBackgroundDark);
         }
         .ativar-dark:checked~.dark-mode .ativar_dark_lista {
-            background-color: var(--corBackgroundDark);
+            color: white;
         }
     
         .ativar-dark:checked~.dark-mode main {
