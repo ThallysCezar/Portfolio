@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href="Css/style.css">
-    <script src='main.js'></script>
 </head>
 
 <div>
@@ -87,7 +86,7 @@
                                 <div class="content">
                                     <section>
                                         <h2 class="titulo_esp">Especialidades</h2>
-                                        <ul>
+                                        <ul class="ativar_dark_lista">
                                             <li>
                                                 <span>
                                                     Programação Web(HTML5, CSS3, JS e framework como Bootstrap)
@@ -201,7 +200,7 @@
                                 <div class="content">
                                     <section>
                                         <h2 class="titulo_2">Formação</h2>
-                                        <ul>
+                                        <ul class="ativar_dark_lista">
                                             <li>
                                                 <h3>Técnico em Eletrônica</h3>
                                                 <strong>Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco</strong>
@@ -303,6 +302,39 @@
         </footer>
     </div>
 
+    <script type="text/javascript " src='vanilla-tilt.babel.js'></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".card_1"), {
+		max: 25,
+		speed: 400,
+        glare: true
+	});
+    VanillaTilt.init(document.querySelector(".card_2"), {
+		max: 25,
+		speed: 400,
+        glare: true
+	});
+    VanillaTilt.init(document.querySelector(".card_3"), {
+		max: 25,
+		speed: 400,
+        glare: true
+	});
+    VanillaTilt.init(document.querySelector(".card_esp"), {
+		max: 25,
+		speed: 400,
+        glare: true
+	});
+    VanillaTilt.init(document.querySelector(".card_exp"), {
+		max: 25,
+		speed: 400,
+        glare: true
+	});
+    VanillaTilt.init(document.querySelector(".card_cursos"), {
+		max: 25,
+		speed: 400,
+        glare: true
+	});
+    </script>
     </body>
 
 </html>

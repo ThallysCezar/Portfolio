@@ -37,7 +37,7 @@
             --corBackgroundPrimaria: #292268;
             --corBackgroundSecundaria: #04133d;
             --corBackgroundDark: #0e0e0e;
-            --corTextPrimaria: #636363;
+            --corTextPrimaria: #000000;
             --corTextoSecundaria: rgb(0, 0, 0);
         }
         /* BODY */
@@ -389,8 +389,9 @@
         .cont1 .card_esp {
             position: relative;
             width: 360px;
-            height: 690px;
+            height: 670px;
             margin: 30px;
+            padding-top: 50px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
             overflow: hidden;
@@ -404,6 +405,7 @@
             width: 360px;
             height: 300px;
             margin: 30px;
+            padding-top: 60px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
             overflow: hidden;
@@ -417,6 +419,7 @@
             width: 360px;
             height: 380px;
             margin: 30px;
+            padding-top: 60px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
             overflow: hidden;
@@ -430,6 +433,7 @@
             width: 360px;
             height: 380px;
             margin: 30px;
+            padding-top: 60px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
             overflow: hidden;
@@ -443,6 +447,7 @@
             width: 360px;
             height: 570px;
             margin: 30px;
+            padding-top: 60px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
             overflow: hidden;
@@ -456,6 +461,7 @@
             width: 360px;
             height: 500px;
             margin: 30px;
+            padding-top: 60px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
             overflow: hidden;
