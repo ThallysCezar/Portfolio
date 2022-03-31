@@ -388,7 +388,7 @@
 
         .cont1 .card_esp {
             position: relative;
-            width: 350px;
+            width: 360px;
             height: 690px;
             margin: 30px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -401,7 +401,7 @@
 
         .cont1 .card_1 {
             position: relative;
-            width: 350px;
+            width: 360px;
             height: 300px;
             margin: 30px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -427,7 +427,7 @@
         }
         .cont1 .card_exp {
             position: relative;
-            width: 350px;
+            width: 360px;
             height: 380px;
             margin: 30px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -440,7 +440,7 @@
         }
         .cont1 .card_2 {
             position: relative;
-            width: 350px;
+            width: 360px;
             height: 570px;
             margin: 30px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -453,7 +453,7 @@
         }
         .cont1 .card_3 {
             position: relative;
-            width: 350px;
+            width: 360px;
             height: 500px;
             margin: 30px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -532,23 +532,23 @@
         }
         .cont1 .card_1 .content .titulo2{
             position: absolute;
-            top: -20px;
-            right: 30px;
+            top: -30px;
+            right: 35px;
             font-size: 2em;
             color: #636363;
             pointer-events: none;
         }
         .cont1 .card_1 .content .titulo{
             position: absolute;
-            top: -20px;
-            right: 100px;
+            top: -30px;
+            right: 105px;
             font-size: 2em;
             color: #636363;
             pointer-events: none;
         }
         .cont1 .card_cursos .content .titulo_Cursos{
             position: absolute;
-            top: -20px;
+            top: -30px;
             right: 126px;
             font-size: 2em;
             color: #636363;
@@ -556,7 +556,7 @@
         }
         .cont1 .card_exp .content .titulo2{
             position: absolute;
-            top: -20px;
+            top: -30px;
             right: 78px;
             font-size: 2em;
             color: #636363;
@@ -564,8 +564,24 @@
         }
         .cont1 .card_3 .content .titulo2{
             position: absolute;
-            top: -20px;
+            top: -30px;
             right: 30px;
+            font-size: 2em;
+            color: #636363;
+            pointer-events: none;
+        }
+        .cont1 .card_esp .content .titulo_esp{
+            position: absolute;
+            top: -30px;
+            right: 55px;
+            font-size: 2em;
+            color: #636363;
+            pointer-events: none;
+        }
+        .cont1 .card_2 .content .titulo_2{
+            position: absolute;
+            top: -30px;
+            right: 105px;
             font-size: 2em;
             color: #636363;
             pointer-events: none;
