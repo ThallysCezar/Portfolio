@@ -235,7 +235,10 @@
         .ativar-dark:checked~.dark-mode .container {
             background-color: var(--corBackgroundDark);
         }
-        
+        .ativar-dark:checked~.dark-mode .ativar_dark_lista {
+            background-color: var(--corBackgroundDark);
+        }
+    
         .ativar-dark:checked~.dark-mode main {
             background-color: var(--corBackgroundSecundaria);
         }
@@ -451,7 +454,7 @@
         .cont1 .card_3 {
             position: relative;
             width: 350px;
-            height: 440px;
+            height: 500px;
             margin: 30px;
             box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
             border-radius: 15px;
@@ -555,6 +558,14 @@
             position: absolute;
             top: -20px;
             right: 78px;
+            font-size: 2em;
+            color: #636363;
+            pointer-events: none;
+        }
+        .cont1 .card_3 .content .titulo2{
+            position: absolute;
+            top: -20px;
+            right: 30px;
             font-size: 2em;
             color: #636363;
             pointer-events: none;
