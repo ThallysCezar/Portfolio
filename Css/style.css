@@ -251,6 +251,38 @@
             color: white;
         }
 
+        .ativar-dark:checked~.dark-mode main .cont1 .card_objetivos .content .titulo {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_1 .content .titulo2 {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_esp .content .titulo_esp {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_cursos .content .titulo_Cursos {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_objetivos .content .titulo {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_2 .content .titulo_2 {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_exp .content .titulo2 {
+            color: white;
+        }
+
+        .ativar-dark:checked~.dark-mode main .cont1 .card_3 .content .titulo_2 {
+            color: white;
+        }
+
         .ativar-dark:checked~.dark-mode main {
             background-color: var(--corBackgroundMain);
         }
@@ -437,6 +469,7 @@
             overflow: hidden;
             display: flex;
             justify-content: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.5);
             align-items: center;
             backdrop-filter: blur(5px);
         }
