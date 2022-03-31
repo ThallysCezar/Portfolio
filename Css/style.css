@@ -230,7 +230,7 @@
         .ativar-dark:checked~.dark-mode {
             --corBackgroundPrimaria: #000;
             --corBackgroundSecundaria: #000;
-            --corBackgroundMain: #0c0d1d;;
+            --corBackgroundMain: url(/Image/pexels-vitaly-vlasov-1342460.jpg);
             --corTextPrimaria: #fff;
             --corTextoSecundaria: #fff;
         }
@@ -244,7 +244,7 @@
         }
 
         .ativar-dark:checked~.dark-mode .container {
-            background-color: var(--corBackgroundDark);
+            background-color: var(--corBackgroundMain);
         }
 
         .ativar-dark:checked~.dark-mode .ativar_dark_lista {
@@ -438,6 +438,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_1 {
@@ -453,6 +454,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_objetivos {
@@ -468,6 +470,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_cursos {
@@ -483,6 +486,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_exp {
@@ -498,6 +502,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_2 {
@@ -513,6 +518,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_3 {
@@ -528,6 +534,7 @@
             justify-content: center;
             align-items: center;
             border-top: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
         }
 
         .cont1 .card_esp .content {
@@ -589,43 +596,36 @@
         .cont1 .card_exp:hover .content {
             transform: translateY(0px);
             opacity: 100;
-            background: white;
         }
 
         .cont1 .card_1:hover .content {
             transform: translateY(0px);
             opacity: 1;
-            background: white;
         }
 
         .cont1 .card_objetivos:hover .content {
             transform: translateY(0px);
             opacity: 1;
-            background: white;
         }
 
         .cont1 .card_esp:hover .content {
             transform: translateY(0px);
             opacity: 1;
-            background: white;
         }
 
         .cont1 .card_cursos:hover .content {
             transform: translateY(0px);
             opacity: 1;
-            background: white;
         }
 
         .cont1 .card_2:hover .content {
             transform: translateY(0px);
             opacity: 1;
-            background: white;
         }
 
         .cont1 .card_3:hover .content {
             transform: translateY(0px);
             opacity: 1;
-            background: white;
         }
 
         .cont1 .card_1 .content .titulo2 {
@@ -633,7 +633,6 @@
             top: -30px;
             right: 35px;
             font-size: 2em;
-            background: white;
             color: #000000;
             pointer-events: none;
         }
@@ -642,7 +641,6 @@
             position: absolute;
             top: -30px;
             right: 105px;
-            background: white;
             font-size: 2em;
             color: #000000;
             pointer-events: none;
@@ -652,7 +650,6 @@
             position: absolute;
             top: -30px;
             right: 126px;
-            background: white;
             font-size: 2em;
             color: #000000;
             pointer-events: none;
@@ -662,7 +659,6 @@
             position: absolute;
             top: -30px;
             right: 78px;
-            background: white;
             font-size: 2em;
             color: #000000;
             pointer-events: none;
@@ -672,7 +668,6 @@
             position: absolute;
             top: -30px;
             right: 30px;
-            background: white;
             font-size: 2em;
             color: #000000;
             pointer-events: none;
@@ -682,7 +677,6 @@
             position: absolute;
             top: -30px;
             right: 55px;
-            background: white;
             font-size: 2em;
             color: #000000;
             pointer-events: none;
@@ -692,7 +686,6 @@
             position: absolute;
             top: -30px;
             right: 105px;
-            background: white;
             font-size: 2em;
             color: #000000;
             pointer-events: none;
