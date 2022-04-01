@@ -311,6 +311,10 @@
             color: white;
         }
 
+        .ativar-dark:checked~.dark-mode main .cont1 .card_3 .content .titulo2 {
+            color: white;
+        }
+
         .ativar-dark:checked~.dark-mode main {
             background-color: var(--corBackgroundMain);
         }
